@@ -1,5 +1,5 @@
 # SefiBOT
 
-# Install or adding bot to Discord
+## Install or adding bot to Discord
 
-# About
+## About

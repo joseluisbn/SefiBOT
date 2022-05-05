@@ -40,4 +40,4 @@ async def on_ready():
     # await bot.change_presence(activity="busy")
     print("SefiBOT is connected. Prepare your materia!")
 
-bot.run('OTcxNzcyNTUzMDQ5ODI1MzAw.YnPXtw.nabaLvFChAJE3RXnUCirPS-yEBw')
+bot.run('<TOKEN>')

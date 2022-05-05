@@ -7,8 +7,8 @@ from matplotlib.pyplot import title
 bot = commands.Bot(command_prefix='!', description="Hi all, I'm SefiBOT, your robotic friend")
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def hi(ctx):
+    await ctx.send('hi!')
 
 # About. Some examples
 @bot.command()

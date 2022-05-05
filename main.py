@@ -1,14 +1,27 @@
 from datetime import datetime
+from http import client
 import discord
 from discord.ext import commands
 from matplotlib.pyplot import title
 
 # Add a prefix to command bot in Discord
-bot = commands.Bot(command_prefix='!', description="Hi all, I'm SefiBOT, your robotic friend")
+bot = commands.Bot(command_prefix='!')
 
+# Check latency
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def lag(ctx):
+    await ctx.send(f'My latency is {round(bot.latency * 1000)} ms')
+
+# Event: join/left user. Future feature, welcome/farewell message
+
+@bot.event
+async def on_member_join(member):
+    print(f'{member} has joined to the server.')
+
+@bot.event
+async def on_member_remove(member):
+    print(f'{member} has left the server.')
+
 
 # About. Some examples
 @bot.command()
@@ -25,6 +38,6 @@ async def about(ctx):
 @bot.event
 async def on_ready():
     # await bot.change_presence(activity="busy")
-    print("SefiBOT is connected. Prepare your materia")
+    print("SefiBOT is connected. Prepare your materia!")
 
-bot.run('<YOUR ID>')
+bot.run('OTcxNzcyNTUzMDQ5ODI1MzAw.YnPXtw.nabaLvFChAJE3RXnUCirPS-yEBw')

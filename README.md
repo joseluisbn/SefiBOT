@@ -4,6 +4,10 @@ SefiBOT
 
 ## What SefiBOT do
 
+## For developers
+
+- pre-commit or delete .pre-commit-config.yaml
+
 ## Install or adding bot to Discord
 
 - Download SefiBOT from GitHub.

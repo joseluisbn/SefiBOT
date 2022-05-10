@@ -54,4 +54,4 @@ async def on_ready():
     print("SefiBOT is connected. Prepare your materia!")
 
 
-bot.run("<TOKEN>")
+bot.run("<BOT_TOKEN>")

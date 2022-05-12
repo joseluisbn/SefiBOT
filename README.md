@@ -44,3 +44,5 @@ Clic here and name it as SefiBOT (or whatever you like)
 ## About
 
 SefiBOT v0.01 Bot developed by BleizeN.
+
+## Acknowledgements

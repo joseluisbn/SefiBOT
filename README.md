@@ -1,12 +1,16 @@
-SefiBOT
+SefiBOT (WIP)
 -------
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## What SefiBOT do
+## What SefiBOT does
 
 ## For developers
 
+- python3
 - pre-commit or delete .pre-commit-config.yaml
+- discord.py
+- SQlite
+- APScheduler
 
 ## Install or adding bot to Discord
 

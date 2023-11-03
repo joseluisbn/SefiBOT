@@ -73,7 +73,7 @@ packaging==21.3
 parso==0.8.1
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==9.0.1
+Pillow==10.0.0
 pipenv==2022.5.2
 platformdirs==2.5.2
 ply==3.11

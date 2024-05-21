@@ -106,7 +106,7 @@ PyYAML==5.4.1
 regex==2021.11.10
 reportlab==3.6.8
 repoze.lru==0.7
-requests==2.25.1
+requests==2.32.0
 requests-toolbelt==0.9.1
 Routes==2.5.1
 scipy==1.8.0

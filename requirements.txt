@@ -138,4 +138,4 @@ xdg==5
 xkit==0.0.0
 yarl==1.7.2
 zeroconf==0.38.3
-zipp==1.0.0
+zipp==3.19.1
